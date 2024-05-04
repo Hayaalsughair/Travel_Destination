@@ -1,0 +1,28 @@
+/* Header.css */
+
+.header {
+    background-color: #f1bb30;
+    color: #fff;
+  }
+  
+  /* .logo {
+    margin-left: auto; /* Align logo to the right 
+  }*/
+  
+  /* img{
+    
+    width: 10%;
+  } */ 
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; 
+  }
+  
+  h1 {
+    margin-top: 20px; 
+    text-align: center; 
+  }
+  
