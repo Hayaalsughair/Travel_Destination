@@ -1,0 +1,17 @@
+.container {
+  max-width: 40%; 
+  margin-top: 20px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: flex; 
+  justify-content: center;
+}
+
+.tour-preview {
+  transition: transform 0.2s ease;
+}
+
+.tour-preview:hover {
+  transform: scale(1.05);
+}

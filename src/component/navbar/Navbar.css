@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #f1bb30;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .links a {
+    color: #fff;
+    text-decoration: none;
+}
