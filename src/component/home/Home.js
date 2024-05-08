@@ -1,17 +1,13 @@
-import Header from "../header/Header.js"
-import Tour from "../tour/Tour.js";
-import Footer from "../footer/Footer.js";
-
-// CSS File 
-import './Home.css';
+import React from 'react';
+import Tours from '../tours/Tours.js';
+import data from "../../data/db.json"; 
 
 function Home() {
     return (
-    <>
-      <Header />
-      <Tour />
-      <Footer/>
-    </>
-  );
+        <div className="home">
+            <Tours tours={data} title='All Blogs' />
+        </div>
+    );
 }
+
 export default Home;
